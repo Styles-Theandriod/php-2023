@@ -61,17 +61,136 @@
     echo($x). '<br>';
 
     $anitaHeight = 30;
-    $anitaAge = 30 ;
+    $anitaAge = 30;
+
+
     // Compare Operators in PHP 
     // = assignment Operator 
-    // == equal to 
-    $anitaAge == $anitaHeight;
+    // == equal to (checks for value) 
+    // === identical operator (checks for DataType and value)
+    // != Not equal 
+    // <> Not equal 
+    // !== Not identical 
+    // > Greater Than
+    // < less Than 
+    // >= Greater Than or equal to 
+    // <= Less Than or equal to 
+    // <=> space ship operator
+    // $anitaAge == $anitaHeight;
     
 
-    if($anitaAge == $anitaHeight){
-        echo('we are thesame value');
-    }else {
-        echo('We are not thesame value');
+    // if($anitaAge == $anitaHeight){
+    //     echo('we are thesame value');
+    // }else {
+    //     echo('We are not thesame value');
+    // }
+
+    // ===
+    // if($anitaAge === $anitaHeight){
+    //     echo('We are thesame dataType and value');
+    // }else{
+    //     echo ('We are NOT thesame dataType and value');
+
+    // }
+
+    // !=
+    // if($anitaAge != $anitaHeight){
+    //     echo('We are thesame dataType and value');
+    // }else{
+    //     echo ('We are NOT thesame dataType and value');
+
+    // }
+
+    // <>
+    // if($anitaAge <> $anitaHeight){
+    //     echo('We are thesame dataType and value');
+    // }else{
+    //     echo ('We are NOT thesame dataType and value');
+
+    // }
+    
+    //!==
+    // if($anitaAge !== $anitaHeight){
+    //     echo('We are thesame dataType and value');
+    // }else{
+    //     echo ('We are NOT thesame dataType and value');
+
+    // }
+
+    // declare a viriable a and b
+    $a = 50;
+    $b = 100;
+
+    // var_dump($a !== $b);
+    // if($a !== $b){
+    //     echo('a is not with b');
+    // }else{
+    //     echo('we are never the same');
+    // }
+
+    // > Greater Than
+    // if($a > $b){
+    //     echo('a is greater than b');
+    // }else{
+    //     echo('b is Greater Than a');
+    // }
+
+    // < less Than
+    // if($a < $b){
+    //     echo('a is greater than b');
+    // }else{
+    //     echo('b is Greater Than a');
+    // }
+
+    // >=
+    // if($a >= $b){
+    //     echo('we are equal');
+    // }else{
+    //     echo('we are NOt equal');
+    // }
+
+    // echo "<br>";
+
+    // <=
+    // if($a <= $b){
+    //     echo('we are equal');
+    // }else{
+    //     echo('we are NOt equal');
+    // }
+
+// <=> Space Ship Operator
+    // print out else statement if both values are equal
+        // prints out the true statement if one is different 
+    if ($a <=> $b) {
+        echo ('we are equal');
+    } else {
+        echo ('we are NOt equal');
     }
 
-?>
+    // Assignment for princess Annita 💥
+    // Redo what we have done in today comparison class with if and else 
+    // statement 
+
+    // Create an account with GITHUB 
+
+
+    // PHP INCREMENT AND DECREAMENT 
+    // post increment 
+    // pre increment 
+    echo'<br>';
+    // increment 
+    //echo(++$a); //pre-increment
+    // echo($a++); //post-increment
+
+    // Decrement 
+    //echo(--$a); //pre-decrement
+    // echo($a--); //post-decrement
+    echo "<br>";
+
+    // PHP LOGICAL OPERATORS 
+    // and (And) 
+    if($a and $b){
+        echo('united');
+    }else{
+        echo('Not United');
+    }
