@@ -161,11 +161,11 @@
 // <=> Space Ship Operator
     // print out else statement if both values are equal
         // prints out the true statement if one is different 
-    if ($a <=> $b) {
-        echo ('we are equal');
-    } else {
-        echo ('we are NOt equal');
-    }
+    // if ($a <=> $b) {
+    //     echo ('we are equal');
+    // } else {
+    //     echo ('we are NOt equal');
+    // }
 
     // Assignment for princess Annita 💥
     // Redo what we have done in today comparison class with if and else 
@@ -188,9 +188,55 @@
     echo "<br>";
 
     // PHP LOGICAL OPERATORS 
-    // and (And) 
-    if($a and $b){
-        echo('united');
-    }else{
-        echo('Not United');
-    }
+    // and (And) if both are true returns true
+    // if($a == 100 and $b == 50){
+    //     echo('united');
+    // }else{
+    //     echo('Not United');
+    // }
+
+    // or (or) one must be true to return a true response
+    // the both has to be false to return a false value; 
+    // if($a == 20 or $b == 20){
+    //     echo('united');
+    // }else{
+    //     echo('Not United');
+    // }
+
+    // Xor (xor) one must be true to return a true response
+    // the both has to be false to return a false value;
+    // if($a == 100 xor $b == 100){
+    //     echo('united');
+    // }else{
+    //     echo('Not United');
+    // }
+
+    // && (And) 
+    // if($a == 50 && $b == 100 ){
+    //     echo('united');
+    // }else{
+    //     echo('Not United');
+    // }
+
+    // || (or) 
+    // if($a == 50 || $b == 100){
+    //     echo('united');
+    // }else{
+    //     echo('Not United');
+    // }
+
+    // ! (Not) 
+    // if($a != 100 || $a != 200){
+    //     echo('united');
+    // }else{
+    //     echo('Not United');
+    // }
+
+
+// PHP conditional assignment OPerators 
+// ?: Ternary Operator 
+    $user = 'ANITAs';
+    $myUser = 'emmanuel';
+   $result = $myUser == $user ? 'Anonymouse User' : 'Undefined User';
+    echo($result);
+    
