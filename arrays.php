@@ -74,16 +74,42 @@ $Family = array(
         array('Anita', 'Ann', 'Annabel'),
         array('Rejoyce', 'Rebecca', 'Rehanna'),
         array('Joyce', 'Magret', 'Gold'),
-    )
-);
+        )
+    );
+    
+    echo $Family[0][1][0];
+    
+    // PHP SORTING FUNCTION FOR ARRAY
+    // sort(); sort array in ascending order 
+    // rsort(); sort arrays in descending order
+    // asort(); sort associative arrays in ascending order, according to the value 
+    // ksort(); sort associative arrays in ascending order, according to the key
+    // arsort(); sort associative arrays in descending order, according to the value
+    // krsort(); sort associative arrays in descending order, according to the key
+    
+    $mySort = array('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Satuday', 'Sunday');
+    // sort($mySort);
+    rsort($mySort);
+    $sortItem = count($mySort);
+    echo '<br>';
+    echo '<br>';
+    
+    for ($y = 0; $y < $sortItem; $y++) {
+        echo $mySort[$y];
+        echo '<br>';
+    }
+    
+    echo '<br>';
+    echo '<br>';
+    
+    
+    $product = array('emma'=>'00', 'Benson'=>'200', 'Ogechi'=>'300');
+    echo '<br>';
+    echo asort($product);
+    
+    foreach ($product as $keys => $keys_value) {
+        echo $keys_value;
+        echo '<br>';
+    }
 
-echo $Family[0][1][0];
-
-// PHP SORTING FUNCTION FOR ARRAY
-// sort(); sort array in ascending order 
-// rsort(); sort arrays in descending order
-// asort(); sort associative arrays in ascending order, according to the value 
-// ksort(); sort associative arrays in ascending order, according to the key
-// arsort(); sort associative arrays in descending order, according to the value
-// krsort(); sort associative arrays in descending order, according to the key
-
+    
