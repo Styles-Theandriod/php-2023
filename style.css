@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+form{
+    background:red;
+    width:50%;
+    margin: auto;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30vh;
+}
+
+input{
+    width:50%;
+    margin:10px 0px 0px 0px;
+    padding:6px;
+    border-radius:3px;
+    border: none;
+}
+
+input[type="button"]:hover{
+    cursor: pointer;
+    background-color: #323232;
+    color: #fff;
+}
