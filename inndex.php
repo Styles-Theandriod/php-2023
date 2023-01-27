@@ -27,15 +27,15 @@
         // }
 
             //USING THE PHP $_POST 
-        // if($_SERVER['REQUEST_METHOD'] === 'POST'){
-        //     // Collect our value from inputOne input field 
-        //     $name = $_POST['inputOne'];
-        //     if(empty($name)){
-        //         echo 'Name is empty';
-        //     }else{
-        //         echo $name;
-        //     }
-        // }
+        if($_SERVER['REQUEST_METHOD'] === 'POST'){
+            // Collect our value from inputOne input field 
+            $name = $_POST['inputOne'];
+            if(empty($name)){
+                echo 'Name is empty';
+            }else{
+                echo $name;
+            }
+        }
                 //USING THE PHP $_GET
         if($_SERVER['REQUEST_METHOD'] === 'GET'){
             // Collect our value from inputOne input field 
