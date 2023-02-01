@@ -10,8 +10,6 @@
     if($db->connect_error){
         die("connection filed" . $db->connect_error);
     }else{
-        echo ('connection successful');
+        // echo ('connection successful');
     }
-
-    
 ?>
